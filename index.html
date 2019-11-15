@@ -1,0 +1,82 @@
+<head>
+  <script src="//unpkg.com/d3"></script>
+
+  <script src="//unpkg.com/sunburst-chart"></script>
+  <!--<script src="../../dist/sunburst-chart.js"></script>-->
+<style type="text/css">.sunburst-viz .slice path {
+  cursor: pointer;
+}
+<title>RVC Tech Certificates</title>
+.sunburst-viz text {
+  font-family: sans-serif;
+  font-size: 12px;
+  dominant-baseline: middle;
+  text-anchor: middle;
+  pointer-events: none;
+  fill: #064d8c;
+}
+
+.sunburst-viz text .text-contour {
+  fill: none;
+  stroke: white;
+  stroke-width: 5;
+  stroke-linejoin: 'round';
+}
+
+.sunburst-viz .main-arc {
+  stroke: white;
+  stroke-width: 1px;
+  transition: opacity .4s;
+}
+
+.sunburst-viz .main-arc:hover {
+  opacity: 0.85;
+  transition: opacity .05s;
+}
+
+.sunburst-viz .hidden-arc {
+  fill: none;
+}
+
+.sunburst-tooltip {
+  display: none;
+  position: absolute;
+  max-width: 1200px;
+  white-space: nowrap;
+  padding: 5px;
+  border-radius: 3px;
+  font: 12px sans-serif;
+  color: #eee;
+  background: rgba(0,0,0,0.65);
+  pointer-events: none;
+}
+
+.sunburst-tooltip .tooltip-title {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+}
+   /* Smartphone Portrait and Landscape */ 
+  @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 480px){ 
+      .showtooltip{display: none;}
+  }
+</style>
+  <style>body { margin: 0 }</style>
+</head>
+<body>
+  <div id="chart"></div>
+  <script>
+    const color = d3.scaleOrdinal(d3.schemePastel1);
+    fetch('flare.json').then(res => res.json()).then(data => {
+      Sunburst()
+        .data(data)
+        .label('name')
+        .size('size')
+        .color((d, parent) => color(parent ? parent.data.name : null))
+          .tooltipContent((d, node) => ``)
+        (document.getElementById('chart'));
+    });
+  </script>
+</body>
