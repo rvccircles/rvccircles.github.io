@@ -160,11 +160,15 @@
           "name" : "Microsoft Server Administration",
           "children" : [
             {
-              "name" : "Windows Active Directory (PCT-111)",
+              "name" : "Windows Active Directory(PCT-111)",
               "size" : 50000
             },
             {
-              "name" : "Microsoft Windows Infras...(PCT-113)",
+              "name" : "Microsoft Windows Infras.(PCT-113)",
+              "size" : 50000
+            }
+            {
+              "name" : "Windows Server Fundamentals(PCT-112)",
               "size" : 50000
             }
           ]
