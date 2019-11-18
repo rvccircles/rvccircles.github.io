@@ -1,6 +1,6 @@
 {
   "name" : "RVCTECHCertificates",
-  "children" : [
+  "children" :[
     {
       "name" : "CIS",
       "children" : [
