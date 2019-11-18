@@ -9,17 +9,17 @@
           "children" : [
             {
               "name" : "Programming iOS...(CIS280)",
-              "size" : 30000,
+              "size" : 50000,
               "offered" : "Fall Only"
             },
             {
               "name" : "Programming Logic...(CIS-170)",
-              "size" : 40000,
+              "size" : 50000,
               "offered" : "Fall/Spring Only"
             },
             {
               "name" : "Programming Android...(CIS-245)",
-              "size" : 30000,
+              "size" : 50000,
               "offered" : "Spring Only"
             }
           ]
@@ -29,19 +29,19 @@
           "children" : [
             {
               "name" : "Programming Logic...(CIS170)",
-              "size" : 30000
+              "size" : 50000
             },
             {
               "name" : "Introduction to C/C++...(CIS-276)",
-              "size" : 30000
+              "size" : 50000
             },
             {
               "name" : "Advanced C/C++...(CIS-277)",
-              "size" : 30000
+              "size" : 50000
             },
             {
               "name" : "Visual C# Programming...(CIS-279) ",
-              "size" : 30000
+              "size" : 50000
             }
           ]
         },
@@ -50,15 +50,15 @@
           "children" : [
             {
               "name" : "Programming Logic...(CIS-170) ",
-              "size" : 30000
+              "size" : 50000
             },
             {
               "name" : "Intro to Visual Basic...(CIS-180) ",
-              "size" : "40000"
+              "size" : 50000
             },
             {
               "name" : "Advanced Visual Basic...(CIS-181)",
-              "size" : 30000
+              "size" : 50000
             }
           ]
         }
@@ -72,19 +72,19 @@
           "children" : [
             {
               "name" : "ProgrammingRel.Internet(WEB-101)",
-              "size" : 30000
+              "size" : 50000
             },
             {
               "name" : "Adv ProgrammingRel.Internet(WEB-102) ",
-              "size" : 30000
+              "size" : 50000
             },
             {
               "name" : "DatabaseProgramming(CIS-254) ",
-              "size" : 30000
+              "size" : 50000
             },
             {
               "name" : "PHP Programming(WEB-234)",
-              "size" : 30000
+              "size" : 50000
             }
           ]
         },
@@ -93,19 +93,19 @@
           "children" : [
             {
               "name" : "ProgrammingRel.Internet(WEB-101) ",
-              "size" : 30000
+              "size" : 50000
             },
             {
               "name" : "AdvProgrammingRel.Internet(WEB-102) ",
-              "size" : 30000
+              "size" : 50000
             },
             {
               "name" : "Introduction to Multimedia(WEB-111)",
-              "size" : 40000
+              "size" : 50000
             },
              {
               "name" : "Digital Photography (WEB-225)",
-              "size" : 40000
+              "size" : 50000
             }
           ]
         }
@@ -119,15 +119,15 @@
           "children" : [
             {
               "name" : "Advanced Routing (PCT-220)",
-              "size" : 30000
+              "size" : 50000
             },
             {
               "name" : "Advanced Switching (PCT-224) ",
-              "size" : 30000
+              "size" : 50000
             },
             {
               "name" : "Troubleshooting (PCT-226) ",
-              "size" : 40000
+              "size" : 50000
             }
           ]
         },
@@ -136,23 +136,23 @@
           "children" : [
             {
               "name" : "Intro to Computers...(CIS-102) ",
-              "size" : 30000
+              "size" : 50000
             },
             {
               "name" : "Cisco Networking I (PCT-120) ",
-              "size" : 30000
+              "size" : 50000
             },
             {
               "name" : "Cisco Networking II (PCT-122)",
-              "size" : 30000
+              "size" : 50000
             },
             {
               "name" : "Cisco Networking III (PCT-124)",
-              "size" : 30000
+              "size" : 50000
             },
             {
               "name" : "Cisco Networking IV (PCT-126)",
-              "size" : 30000
+              "size" : 50000
             }
           ]
         },
@@ -178,19 +178,19 @@
           "children" : [
             {
               "name" : "Intro to Computers...(CIS-102) ",
-              "size" : 30000
+              "size" : 50000
             },
             {
               "name" : "Networking Essentials (PCT-110) ",
-              "size" : 30000
+              "size" : 50000
             },
             {
               "name" : "A+ Essentials (PCT-262) ",
-              "size" : 30000
+              "size" : 50000
             },
             {
               "name" : "Introduction to Unix/Linux (PCT-270) ",
-              "size" : 30000
+              "size" : 50000
             }
           ]
         }
