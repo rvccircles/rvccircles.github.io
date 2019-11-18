@@ -1,7 +1,7 @@
 <head>
   <script src="//unpkg.com/d3"></script>
 
-  <script src="//unpkg.com/sunburst-chart"></script>
+  <!-- <script src="//unpkg.com/sunburst-chart"></script>-->
   <!--<script src="../../dist/sunburst-chart.js"></script>-->
 <style type="text/css">.sunburst-viz .slice path {
   cursor: pointer;
@@ -13,7 +13,7 @@
   dominant-baseline: middle;
   text-anchor: middle;
   pointer-events: none;
-  fill: #fff;
+  fill: #000;
 }
 
 .sunburst-viz text .text-contour {
@@ -67,7 +67,7 @@
 <body>
   <div id="chart"></div>
   <script>
-    const color = d3.scaleOrdinal(d3.schemePaired);
+    const color = d3.scaleOrdinal(d3.schemePastel1);
     fetch('flare.json').then(res => res.json()).then(data => {
       Sunburst()
         .data(data)
